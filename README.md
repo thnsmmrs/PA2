@@ -9,6 +9,7 @@ TODO:
 - NOTE: Tracing spline outside of state space <|L1-L2|, L1+L2> should not be solved and should follow boundary conditions
 <br>
 <br>
+
 - Write Report
     - Strategy (Organization and distrubition of work)
     - Workflow, integration of code and conflict/bug handling
