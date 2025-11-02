@@ -16,3 +16,13 @@ TODO:
     - Coordination: discuss key decisions 
     - Reflect on what worked and what didn't, include changes in retrospect
     - Individual contributions including functions or commits, time spent on assignment, one skill improved and one blocker
+
+
+11/2 (2hrs 15min)
+Ethan completed: IK equation derivation(paper and py function), spline interpolation integration
+Ayush completed: graphing with user input, IK equation verification
+
+Left TODO:
+    - Integrate clicking input with px py arrays
+    - Use IK equations to solve for theta1 theta2 arrays based on px py
+    - Simulation
