@@ -19,7 +19,7 @@ TODO:
 
 
 11/2 (2hrs 15min)
-Ethan completed: IK equation derivation(paper and py function), spline interpolation integration
+Ethan completed: IK equation derivation(paper and py function), spline interpolation implementation
 Ayush completed: graphing with user input, IK equation verification
 
 Left TODO:
