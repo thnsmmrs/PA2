@@ -4,7 +4,7 @@ from scipy.interpolate import CubicSpline
 
 L1 = 1.0
 L2 = 0.5
-min,max = 0.5,1.5
+min,max = abs(L1-L2), L1+L2
 
 #defining plotting standards
 t = numpy.linspace(0, 2*numpy.pi, 1000)
