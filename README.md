@@ -19,7 +19,7 @@ TODO:
 
 
 11/2 (2hrs 15min)
-Ethan completed: IK equation derivation(paper and py function), spline interpolation implementation
+Ethan completed: IK equation derivation(paper and py function), spline interpolation implementation (https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.CubicSpline.html#scipy.interpolate.CubicSpline)
 Ayush completed: graphing with user input, IK equation verification
 
 Left TODO:
