@@ -25,8 +25,8 @@ Ayush completed: graphing with user input, IK equation verification
 11/3 (1 hr 30 min)
 Krish completed: Wrote FK equations and used IK equations to solve for theta1 theta2 arrays based on xs and ys for smoother curve
 
-11/4 (45 min)
-Ethan completed: Simulating manipulator on spline curve
+11/4 (1 hr)
+Ethan completed: Simulating manipulator on spline curve, started boundary implementation(incomplete!!)
 Documentation (https://matplotlib.org/stable/users/explain/animations/animations.html)
 
 Left TODO:
