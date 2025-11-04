@@ -62,8 +62,6 @@ trace, = graph.plot([], [])
 outOfBoundsMin = False
 outOfBoundsMax = False
 
-
-
 for i in range(len(fk_x1)):
     #Matplotlib animation documentation used for set data functions (originally was plotting all points)
     if(outOfBoundsMax == 0 and outOfBoundsMin == 0):
@@ -77,6 +75,8 @@ for i in range(len(fk_x1)):
     link2_mag_prev = np.sqrt(fk_x2[i-1]**2 + fk_y2[i-1]**2)
     #DEBUG: print(x_splinetrace[i], y_splinetrace[i], "\n")
 
+
+    #Boundary handling past maximum
     #DEBUG: print(link2_mag,"\n")
     if (np.isnan(link2_mag) and link2_mag_prev > L1 or outOfBoundsMax):
         outOfBoundsMax = True
@@ -91,12 +91,12 @@ for i in range(len(fk_x1)):
         if (np.isnan(link2_mag) == 0):
             outOfBoundsMax = False
 
-    print(outOfBoundsMin)
+    #Boundary handling past minimum
     if (np.isnan(link2_mag) and link2_mag_prev < L1 or outOfBoundsMin):
         outOfBoundsMin = True
-        print("out of bounds (min)")
+        #DEBUG: print("out of bounds (min)")
         thetaOutMin = np.arctan2(y_splinetrace[i], x_splinetrace[i])
-        print(thetaOutMin,"\n")
+        #print(thetaOutMin,"\n")
         #plots links with angle of spline that should be traced
         link1.set_data([0,L1*np.cos(thetaOutMin)], [0,L1*np.sin(thetaOutMin)])
         link2.set_data([L1*np.cos(thetaOutMin),L1*np.cos(thetaOutMin)-L2*(np.cos(thetaOutMin))],[L1*np.sin(thetaOutMin),L1*np.sin(thetaOutMin)-L2*(np.sin(thetaOutMin))])
@@ -104,6 +104,4 @@ for i in range(len(fk_x1)):
         plt.pause(0.001)
         if (np.isnan(link2_mag) == 0):
            outOfBoundsMin = False
-
-
 plt.show()
