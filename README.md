@@ -30,6 +30,6 @@ Ethan completed: Simulating manipulator on spline curve
 Documentation (https://matplotlib.org/stable/users/explain/animations/animations.html)
 
 Left TODO:
-    - Boundary conditions 
-    - Thorough commenting? Documentation of sources
-    - Report
+- Boundary conditions (new logic?)
+- Thorough commenting? Documentation of sources
+- Report
