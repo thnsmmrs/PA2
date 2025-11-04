@@ -27,6 +27,7 @@ Krish completed: Wrote FK equations and used IK equations to solve for theta1 th
 
 11/4 (45 min)
 Ethan completed: Simulating manipulator on spline curve
+Documentation (https://matplotlib.org/stable/users/explain/animations/animations.html)
 
 Left TODO:
     - Boundary conditions 
