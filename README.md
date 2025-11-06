@@ -22,7 +22,7 @@ TODO:
 Ethan completed: IK equation derivation(paper and py function), spline interpolation implementation (https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.CubicSpline.html#scipy.interpolate.CubicSpline)
 Ayush completed: graphing with user input, IK equation verification
 
-11/3 (1 hr 30 min)
+11/3 (2 hrs 15 min)
 Krish completed: Wrote FK equations and used IK equations to solve for theta1 theta2 arrays based on xs and ys for smoother curve
 
 11/4 (1 hr 30 min)
