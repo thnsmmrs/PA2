@@ -21,10 +21,6 @@ plt.title("Click 5 points inside the workspace")
 points = plt.ginput(5, timeout=-1)
 points = np.array(points)
 
-
-#Ayush include source
-
-
 px = points[:, 0]
 py = points[:, 1]
 #DEBUG: print(px, " ", py)
